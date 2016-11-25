@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import MatalaA
+@testable import Student
 
 class MatalaATests: XCTestCase {
     

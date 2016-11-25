@@ -15,24 +15,30 @@ class Student
     
      var fName :String?
         {
-        set{fName=newValue}
-        get{return fName}
+        set{self.fName=newValue}
+        get{return self.fName}
         }
      var lName : String?
         {
-        set{lName=newValue}
-        get{return lName}
+        set{self.lName=newValue}
+        get{return self.lName}
         }
      var id:String?
         {
-        set{id=newValue}
-        get{return id}
+        set{self.id=newValue}
+        get{return self.id}
         }
      var phoneNum:String?
         {
-        set{phoneNum=newValue}
-        get{return phoneNum}
+        set{self.phoneNum=newValue}
+        get{return self.phoneNum}
         }
+    var degree:String?
+        {
+        set{self.degree=newValue}
+        get{return self.degree}
+    }
+
 
     
     init (fName:String,lName:String,id:String,phoneNum:String)
@@ -45,5 +51,11 @@ class Student
                
         
     }
-    
+    init(st: Student) {
+        self.fName=st.fName;
+        self.id=st.id;
+        self.lName=st.lName;
+        self.phoneNum=st.phoneNum;
+        self.degree=st.degree;
+    }
 }

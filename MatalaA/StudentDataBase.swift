@@ -46,19 +46,21 @@ class StudentDataBase
         
 
     }
-    func updateStudent(student:Student)->Bool
+    func updateStudent(st:Student)->Bool
     {
-        for (index,value) in students.enumerated()
-            
-        {   if (value!.id==student.id){
-            students.updateStudent(at:index)
+      for (index,value) in students.enumerated()
+      {
+        
+        if (value!.id==st.id)
+        {
+            students[index]=st;
             return true
-            }
-        }
-        return false
+      }
+        
         
     }
-        
+       return false
+    }
 
 
 }
