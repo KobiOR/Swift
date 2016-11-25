@@ -14,6 +14,10 @@
 		FF5EE5BB1DE5C16D00A3349E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5EE5B91DE5C16D00A3349E /* LaunchScreen.storyboard */; };
 		FF5EE5C61DE5C16D00A3349E /* MatalaATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5EE5C51DE5C16D00A3349E /* MatalaATests.swift */; };
 		FF5EE5D11DE5C16D00A3349E /* MatalaAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5EE5D01DE5C16D00A3349E /* MatalaAUITests.swift */; };
+		FF5EE5DF1DE5C29800A3349E /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5EE5DE1DE5C29800A3349E /* Student.swift */; };
+		FF5EE5E01DE5C29800A3349E /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5EE5DE1DE5C29800A3349E /* Student.swift */; };
+		FF5EE5E21DE5C2A500A3349E /* StudentDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5EE5E11DE5C2A500A3349E /* StudentDB.swift */; };
+		FF5EE5E31DE5C2A500A3349E /* StudentDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5EE5E11DE5C2A500A3349E /* StudentDB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,8 @@
 		FF5EE5CC1DE5C16D00A3349E /* MatalaAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatalaAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5EE5D01DE5C16D00A3349E /* MatalaAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatalaAUITests.swift; sourceTree = "<group>"; };
 		FF5EE5D21DE5C16D00A3349E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5EE5DE1DE5C29800A3349E /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		FF5EE5E11DE5C2A500A3349E /* StudentDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				FF5EE5B01DE5C16D00A3349E /* AppDelegate.swift */,
+				FF5EE5DE1DE5C29800A3349E /* Student.swift */,
+				FF5EE5E11DE5C2A500A3349E /* StudentDB.swift */,
 				FF5EE5B21DE5C16D00A3349E /* ViewController.swift */,
 				FF5EE5B41DE5C16D00A3349E /* Main.storyboard */,
 				FF5EE5B71DE5C16D00A3349E /* Assets.xcassets */,
@@ -260,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF5EE5B31DE5C16D00A3349E /* ViewController.swift in Sources */,
+				FF5EE5E21DE5C2A500A3349E /* StudentDB.swift in Sources */,
+				FF5EE5DF1DE5C29800A3349E /* Student.swift in Sources */,
 				FF5EE5B11DE5C16D00A3349E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF5EE5C61DE5C16D00A3349E /* MatalaATests.swift in Sources */,
+				FF5EE5E31DE5C2A500A3349E /* StudentDB.swift in Sources */,
+				FF5EE5E01DE5C29800A3349E /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

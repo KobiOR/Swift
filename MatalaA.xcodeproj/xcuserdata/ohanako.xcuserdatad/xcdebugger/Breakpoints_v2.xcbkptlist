@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MatalaA/AppDelegate.swift"
+            timestampString = "501596738.936088"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MatalaA.AppDelegate.init () -&gt; MatalaA.AppDelegate"
+                  moduleName = "MatalaA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ohanako/Desktop/MatalaA/MatalaA/AppDelegate.swift"
+                  timestampString = "501604914.751387"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MatalaA.AppDelegate.__allocating_init () -&gt; MatalaA.AppDelegate"
+                  moduleName = "MatalaA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ohanako/Desktop/MatalaA/MatalaA/AppDelegate.swift"
+                  timestampString = "501604914.753922"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "MatalaA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ohanako/Desktop/MatalaA/MatalaA/AppDelegate.swift"
+                  timestampString = "501604914.756473"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
