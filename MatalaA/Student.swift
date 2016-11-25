@@ -14,32 +14,11 @@ class Student
 {
     
      var fName :String?
-        {
-        set{self.fName=newValue}
-        get{return self.fName}
-        }
      var lName : String?
-        {
-        set{self.lName=newValue}
-        get{return self.lName}
-        }
      var id:String?
-        {
-        set{self.id=newValue}
-        get{return self.id}
-        }
      var phoneNum:String?
-        {
-        set{self.phoneNum=newValue}
-        get{return self.phoneNum}
-        }
     var degree:String?
-        {
-        set{self.degree=newValue}
-        get{return self.degree}
-    }
-
-
+    
     
     init (fName:String,lName:String,id:String,phoneNum:String)
         

@@ -11,7 +11,7 @@
 		84964CB81DE8781500A0D1C4 /* MastrStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84964CB61DE8781500A0D1C4 /* MastrStudent.swift */; };
 		84964CBA1DE879ED00A0D1C4 /* PhdStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84964CB91DE879ED00A0D1C4 /* PhdStudent.swift */; };
 		84964CBB1DE879ED00A0D1C4 /* PhdStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84964CB91DE879ED00A0D1C4 /* PhdStudent.swift */; };
-		84964CCD1DE87F8A00A0D1C4 /* StudentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84964CCC1DE87F8A00A0D1C4 /* StudentTest.swift */; };
+		84EEB7271DE890CE00B2410B /* MatalaATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EEB7261DE890CE00B2410B /* MatalaATests.swift */; };
 		FF5EE5B11DE5C16D00A3349E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5EE5B01DE5C16D00A3349E /* AppDelegate.swift */; };
 		FF5EE5B31DE5C16D00A3349E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5EE5B21DE5C16D00A3349E /* ViewController.swift */; };
 		FF5EE5B61DE5C16D00A3349E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5EE5B41DE5C16D00A3349E /* Main.storyboard */; };
@@ -44,7 +44,7 @@
 /* Begin PBXFileReference section */
 		84964CB61DE8781500A0D1C4 /* MastrStudent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MastrStudent.swift; sourceTree = "<group>"; };
 		84964CB91DE879ED00A0D1C4 /* PhdStudent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhdStudent.swift; sourceTree = "<group>"; };
-		84964CCC1DE87F8A00A0D1C4 /* StudentTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTest.swift; sourceTree = "<group>"; usesTabs = 0; };
+		84EEB7261DE890CE00B2410B /* MatalaATests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatalaATests.swift; sourceTree = "<group>"; };
 		FF5EE5AD1DE5C16D00A3349E /* MatalaA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatalaA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5EE5B01DE5C16D00A3349E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF5EE5B21DE5C16D00A3349E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				FF5EE5C71DE5C16D00A3349E /* Info.plist */,
-				84964CCC1DE87F8A00A0D1C4 /* StudentTest.swift */,
+				84EEB7261DE890CE00B2410B /* MatalaATests.swift */,
 			);
 			path = MatalaATests;
 			sourceTree = "<group>";
@@ -290,10 +290,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF5EE5E31DE5C2A500A3349E /* StudentDataBase.swift in Sources */,
-				84964CCD1DE87F8A00A0D1C4 /* StudentTest.swift in Sources */,
 				84964CBB1DE879ED00A0D1C4 /* PhdStudent.swift in Sources */,
 				FF5EE5E01DE5C29800A3349E /* Student.swift in Sources */,
 				84964CB81DE8781500A0D1C4 /* MastrStudent.swift in Sources */,
+				84EEB7271DE890CE00B2410B /* MatalaATests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

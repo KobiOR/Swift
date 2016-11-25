@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import Student
 
 class MatalaATests: XCTestCase {
     
@@ -22,8 +21,20 @@ class MatalaATests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let studentsDb=StudentDataBase()
+        studentsDb.addStudent(firstName: "Kobi", lastName: "Or", idStudent: "200435865", phoneNumber: "0503520007")
+       studentsDb.addStudent(firstName: "Kobi2", lastName: "Or2", idStudent: "2004358652", phoneNumber: "05035200072")
+       studentsDb.addStudent(firstName: "Kobi3", lastName: "Or3", idStudent: "2004358653", phoneNumber: "05035200073")
+        studentsDb.addStudent(firstName: "Kobi4", lastName: "Or4", idStudent: "2004358654", phoneNumber: "05035200074")
+        
+        for (index, element) in studentsDb.students.enumerated()
+        {
+            print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            print("The Name of the \(index) student is:\(element!.fName) \(element!.lName) \(element!.id) \(element!.phoneNum) ");
+
+          }
+        
     }
     
     func testPerformanceExample() {
@@ -34,3 +45,5 @@ class MatalaATests: XCTestCase {
     }
     
 }
+
+
