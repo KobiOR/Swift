@@ -86,11 +86,9 @@ class MatalaATests: XCTestCase {
                 }
                 
             }
-            for (index, element) in studentsDb.students.enumerated()
+            for (_, element) in studentsDb.students.enumerated()
             {
-                print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-                print("The Name of the \(index) student is:\(element!.fName) \(element!.lName) \(element!.id) \(element!.phoneNum) ");
-                print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+                if (element?.id=="2004358652"){return false;}
                 
             }
         }
