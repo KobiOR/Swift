@@ -11,17 +11,25 @@ import Foundation
 class StudentDataBase
     
 {
-    
     var students = [Student?]();
     
-    func addStudent(firstName:String,lastName:String,idStudent:String,phoneNumber:String){
-        
+    private init(){}
+
+    public static let getInstance : StudentDataBase = {
+        let instance = StudentDataBase()
+        return instance
+    }();
+ 
+    func addStudent(firstName:String,lastName:String,idStudent:String,phoneNumber:String)
+    {
         students.append(Student(fName:firstName,lName:lastName,id:idStudent,phoneNum:phoneNumber));
     }
-    
+    func addStudent(st:Student)
+    {
+        students.append(st);
+    }
     func getStudent(id:String)->Student!
     {
-        
         for st in students
         {
             if (st!.id==id){

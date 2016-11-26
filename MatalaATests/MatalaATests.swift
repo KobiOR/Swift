@@ -10,8 +10,9 @@ import XCTest
 
 class MatalaATests: XCTestCase {
     
-    let studentsDb=StudentDataBase()
-
+    let studentsDb=StudentDataBase.getInstance;
+    let studentsDb2=StudentDataBase.getInstance;
+    
     override func setUp() {
         super.setUp()
         studentsDb.addStudent(firstName: "A", lastName: "A", idStudent: "200435865", phoneNumber: "0503520007")
@@ -25,16 +26,18 @@ class MatalaATests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testExample()
+    {
         
 
-        
         for (index, element) in studentsDb.students.enumerated()
-        { print("The Name of the \(index) student is:\(element!.fName) \(element!.lName) \(element!.id) \(element!.phoneNum) ");}
-        
-        if (testFunctionality(stuDb: studentsDb))
         {
-            
+            print("The Name of the \(index) student is:\(element!.fName) \(element!.lName) \(element!.id) \(element!.phoneNum) ");
+        }
+        
+        let tempStudemt=Student(fName: "A1", lName: "A1", id: "200435865", phoneNum: "0503520007");
+        if (testSingelton() && testFunctionality(stuDb:studentsDb) && testUpdate(st:tempStudemt))
+        {
             print("Test succesdded")
         }
     }
@@ -78,17 +81,17 @@ class MatalaATests: XCTestCase {
         for (_,value) in studentsDb.students.enumerated()
         {
             
-            if (value!.id=="2004358652")
+            if (value!.id==st.id)
             {
-                if (studentsDb.deleteStudent(ids:"2004358652"))
+                if (studentsDb.deleteStudent(ids:st.id!))
                 {
-                    print("2004358652 was deleted");
+                    print("\(st.id) was updated");
                 }
                 
             }
             for (_, element) in studentsDb.students.enumerated()
             {
-                if (element?.id=="2004358652"){return false;}
+                if (element?.id==st.id!){return false;}
                 
             }
         }
@@ -96,5 +99,8 @@ class MatalaATests: XCTestCase {
         
     }
 
-
+    func testSingelton() ->(Bool){
+        if (studentsDb===studentsDb2){print("Singelton class succeeded!");return true;}
+        return false;
+    }
 }

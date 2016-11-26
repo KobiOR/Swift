@@ -17,7 +17,7 @@ class Student
      var lName : String?
      var id:String?
      var phoneNum:String?
-    var degree:String?
+     var degree:String?
     
     
     init (fName:String,lName:String,id:String,phoneNum:String)
