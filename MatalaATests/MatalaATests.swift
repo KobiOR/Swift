@@ -36,7 +36,7 @@ class MatalaATests: XCTestCase {
         }
         
         let tempStudemt=Student(fName: "A1", lName: "A1", id: "200435865", phoneNum: "0503520007");
-        if (testSingelton() && testFunctionality(stuDb:studentsDb) && testUpdate(st:tempStudemt))
+        if (testFunctionality(stuDb:studentsDb) && testUpdate(st:tempStudemt))
         {
             print("Test succesdded")
         }
@@ -99,8 +99,4 @@ class MatalaATests: XCTestCase {
         
     }
 
-    func testSingelton() ->(Bool){
-        if (studentsDb===studentsDb2){print("Singelton class succeeded!");return true;}
-        return false;
-    }
-}
+  }
